@@ -190,7 +190,7 @@ public class StudentManage {
     }
 
     public void findPosition() {
-        System.out.print("Enter the ID: ");
+        System.out.print("Enter the position: ");
         String findPosition = scanner.nextLine();
         int count = 0;
 
