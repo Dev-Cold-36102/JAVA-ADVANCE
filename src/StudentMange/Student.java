@@ -3,7 +3,10 @@ package StudentMange;
 
 public class Student {
     private int index;
-    private String id, name, address, position;
+    private String id;
+    private String name;
+    private String address;
+    private String position;
 
 
     public Student(int index, String id, String name, String address, String position) {
