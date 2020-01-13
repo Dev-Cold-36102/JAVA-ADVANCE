@@ -316,9 +316,7 @@ public class StudentManage {
         Collections.sort(this.listStudent, new Comparator<Student>() {
             @Override
             public int compare(Student student1, Student student2) {
-                if (student1.getLeverOfPosition() > student2.getLeverOfPosition()) return 1;
-                else if (student1.getLeverOfPosition() < student2.getLeverOfPosition()) return -1;
-                else return 0;
+                return (student1.getLeverOfPosition()-student2.getLeverOfPosition());
             }
         });
         System.out.println("bang so lieu sau khi sap xep:");

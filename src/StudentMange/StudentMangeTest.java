@@ -11,14 +11,16 @@ public class StudentMangeTest {
         LinkedList listStudent = new LinkedList();
         Student student1 = new Student(1, "HV01", "nhat", 20, "co lam", "Dev");
         listStudent.add(student1);
-        Student student2 = new Student(2, "HV02", "khai", 19, "trung chinh", "Dev");
+        Student student2 = new Student(2, "HV02", "khai", 19, "trung chinh", "Fresher");
         listStudent.add(student2);
-        Student student3 = new Student(3, "HV03", "giang", 22, "hai duong", "Dev");
+        Student student3 = new Student(3, "HV03", "nam", 30, "hai duong", "Senior");
         listStudent.add(student3);
-        Student student4 = new Student(3, "HV03", "giang", 22, "hai duong", "Dev");
+        Student student4 = new Student(4, "HV04", "dung", 10, "ca mau", "Junior");
         listStudent.add(student4);
-        Student student5 = new Student(3, "HV03", "giang", 22, "hai duong", "Fresher");
+        Student student5 = new Student(5, "HV05", "tu", 33, "binh dinh", "Tester");
         listStudent.add(student5);
+        Student student6 = new Student(6, "HV06", "anh", 40, "son la", "Manager");
+        listStudent.add(student6);
         displayList(listStudent);
     }
 
